@@ -1,0 +1,191 @@
+body {
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat';
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* Navigation-Bar */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem; 
+}
+
+.container-fluid {
+    padding: 3% 10% 7%;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+
+/* title-section */
+.title-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+#title {
+    background-color: #ff4c68;
+    height: 95vh;
+    text-align: left;
+}
+
+/* Download-buttons */
+.download-button {
+    margin: 5% 3% 0 0;
+}
+
+/* Title-image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-top: 3rem;
+    margin-left: 10rem;
+    position: relative;
+}
+
+/* feature-style */
+#features {
+    padding: 9% 15% 7%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+    margin-bottom: 2.5rem;
+}
+
+.feature-box p {
+    padding: 0 4rem;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial-section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 6rem;
+    border-radius: 100%;
+    margin: 3vh;
+}
+
+.carousel-item {
+    padding: 9% 16%;
+}
+/* press-section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 3% 1%;
+}
+
+/* pricing-section */
+
+#pricing {
+    padding: 6.5rem;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA section */
+
+#cta {
+    background-color: #ff4c68;
+}
+
+#cta h3 {
+    color: white;
+    padding: 3% 20% 1%;
+    font-size: 3rem;
+}
+
+.cta-text {
+    line-height: 1.5;
+}
+
+.cta-button {
+    margin: 2% 0.5% 8%;
+}
+
+/* footer-section */
+#footer {
+    padding: 3% 0;
+}
+
+.ft-button {
+    margin: 6% 1% 1%;
+    color: black;
+}
+
+#footer p {
+    margin-bottom: 4%;
+}
+
+@media (max-width:1280px) {
+    #title {
+        height: 120vh;
+    }
+    .title-image {
+        position: static;
+    }
+}
+
+@media (max-width: 991px) {
+    #title {
+        height: 210vh;
+        text-align: center;
+    }
+    .title-image {
+        transform: rotate(0deg);
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 750px) {
+    #title {
+        height: 190vh;
+    }
+}
